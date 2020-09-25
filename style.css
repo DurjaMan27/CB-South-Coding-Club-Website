@@ -63,10 +63,15 @@ h4{
 iframe{
     margin:20px 0;
 }
-#constitution{
-    margin-top: 0px;
-}
+
 #constitution img{
-    width:45%;
+    width:47%;
     margin:20px;
+}
+
+@media(max-width:1200px){
+    #constitution img{
+        width:90%;
+        margin:20px;
+    }
 }
