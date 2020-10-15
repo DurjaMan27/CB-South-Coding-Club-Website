@@ -19,7 +19,10 @@ body{
 #main-header a{
   color:white;
 }
-
+#main-header img{
+  width:50px;
+  float: left;
+}
 #navbar{
     background-color: #333;
     color:#f4f4f4
@@ -83,7 +86,6 @@ body{
 }
 
 
-
 /* Officers Section */
 html {
   box-sizing: border-box;
@@ -101,7 +103,9 @@ html {
   margin-top: 30px;
   padding: 0 8px;
 }
+
 .column-officer{
+
   float: left;
   width: 50%;
   margin-bottom: 40px;
@@ -109,11 +113,21 @@ html {
   padding: 0 8px;
 }
 
+.column-resources{
+
+  width: 400px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 0 8px;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
   background-color: #fff;
+  text-align: center;
 }
+
 
 .people{
   display: block;
@@ -124,9 +138,6 @@ html {
   margin-top: 5%;
 }
 
-.container {
-  padding: 0 0px;
-}
 
 .container::after, .row::after {
   content: "";
@@ -154,7 +165,7 @@ html {
   background-color: #555;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
   .column{
     width: 100%;
     display: block;
@@ -176,10 +187,7 @@ html {
 #product-header-section, .intro-type .container {
   padding: 68px 15px 72px !important;
 }
-@media (min-width: 1630px)
-.container {
-  width: 1630px;
-}
+
 .parallax {
   background-attachment: inherit !important;
 }
