@@ -179,12 +179,14 @@ html {
     width: 100%;
     display: block;
   }
+}
+
+@media screen and (max-width: 600px) {
   .column-resources{
     width: 100%;
     display: block;
   }
 }
-
 /*About us page*/
 
 .separator-type, .title-type, .intro-type, .content-type .intro-type p {
