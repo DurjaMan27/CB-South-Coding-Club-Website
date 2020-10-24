@@ -12,6 +12,15 @@ body{
     margin:auto;
     overflow:hidden;
 }
+footer {
+  color:black;
+  position: none;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color:none;
+  text-align: center;
+}
 #main-header{
   margin:auto;
   overflow:hidden;
@@ -44,6 +53,7 @@ body{
 #navbar a:hover{
     color:rgb(97, 97, 255);
 }
+
 /*navigation bar */
 .topnav {
   background-color: #333;
@@ -136,7 +146,7 @@ iframe{
         margin:20px;
     }
 }
-body{
+.last-section{
     margin-bottom: 500px;
 }
 
