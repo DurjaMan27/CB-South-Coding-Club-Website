@@ -244,6 +244,9 @@ html {
     width: 100%;
     display: block;
   }
+  .people {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 600px) {
