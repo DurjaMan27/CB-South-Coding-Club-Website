@@ -446,9 +446,6 @@ html {
 .marginTop40 {
   margin-top: 40px !important;
 }
-.ct-u-paddingBoth100 {
-  padding: 100px 15px;
-}
 .culture-section {
   background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(https://www.solodev.com/assets/culture.jpg) top no-repeat;
   /* background-color: #095c87; */
@@ -458,7 +455,7 @@ html {
   text-align: center;
 }
 .ct-u-paddingBoth100 {
-  padding: 100px 15px;
+  padding: 80px 15px;
 }
 .company-sections h2, .careers-sections h2, .perks-section h2 {
   font-weight: 700;
@@ -592,5 +589,7 @@ margin-top: 40px;
     font-weight: 700;
     font-size: 28px;
   }
-  
+  .ct-u-paddingBoth100 {
+    padding: 30px 15px;
+  }
 }
