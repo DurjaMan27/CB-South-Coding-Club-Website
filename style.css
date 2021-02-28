@@ -370,7 +370,11 @@ html {
   }
   h3{
     font-size: 20px;
-  }  
+  }
+  .company-sections h2, .careers-sections h2, .perks-section h2 {
+    font-weight: 700;
+    font-size: 50px;
+  }
   
 }
 
@@ -412,10 +416,6 @@ html {
   text-transform: capitalize;
   font-size: 65px;
   margin-bottom: 20px;
-}
-.company-sections h2, .careers-sections h2, .perks-section h2 {
-  font-weight: 700;
-  font-size: 50px;
 }
 .company-sections h2, .company-sections h3, .careers-sections h2, .perks-section h2 {
   font-family: 'proxima-nova', sans-serif;
@@ -462,7 +462,7 @@ html {
 }
 .company-sections h2, .careers-sections h2, .perks-section h2 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 10px;
 }
 .company-sections h2, .company-sections h3, .careers-sections h2, .perks-section h2 {
   font-family: 'proxima-nova', sans-serif;
@@ -587,4 +587,10 @@ a:hover {
 .ct-u-paddingBottom100 {
 margin-top: 40px;
 }
-
+@media screen and (max-width: 500px) {
+  .company-sections h2, .careers-sections h2, .perks-section h2 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+}
