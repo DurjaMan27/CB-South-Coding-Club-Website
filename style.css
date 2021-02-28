@@ -21,6 +21,9 @@ footer {
   background-color:none;
   text-align: center;
 }
+p.thick{
+  font-weight: 500;
+}
 #main-header{
   margin:auto;
   overflow:hidden;
@@ -365,7 +368,7 @@ html {
 
 }
 .ct-u-fontWeight300 {
-  font-weight: 300;
+  font-weight: 500;
 }
 .marginTop40 {
   margin-top: 40px !important;
@@ -501,7 +504,6 @@ margin-top: 40px;
 a:hover {
   color: #000;
 }
-
 
 #About-line-spacing {
   line-height: normal;
