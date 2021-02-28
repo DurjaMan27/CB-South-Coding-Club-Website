@@ -365,6 +365,12 @@ html {
   p.small-font{
     font-size: 12px;
   }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 20px;
+  }  
   
 }
 
