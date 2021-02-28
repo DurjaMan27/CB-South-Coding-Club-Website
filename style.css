@@ -27,6 +27,9 @@ p.thick{
 p.small-font{
   font-size: normal;
 }
+p.credit-font{
+  font-size: normal;
+}
 h1{
   font-weight: 600;
 }
@@ -147,27 +150,27 @@ body, html {
 
 /* The hero image */
 .hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image:  url("background.jpeg");
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image:  url("background.jpeg");
 
-/* Set a specific height */
-height: 50%;
+  /* Set a specific height */
+  height: 50%;
 
-/* Position and center the image to scale nicely on all screens */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
-text-align: right;
-position: absolute;
-top: 97%;
-right: -5%;
-transform: translate(-50%, -50%);
-color: white;
+  text-align: right;
+  position: absolute;
+  top: 97%;
+  right: -5%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 
@@ -346,11 +349,15 @@ html {
   h1{
     font-size: 24px;
   }
+  p.credit-font{
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 700px) {
   .container {
     width: 90%;
   }
+
 }
 @media screen and (max-width: 600px) {
   .column-resources{
@@ -375,7 +382,9 @@ html {
     font-weight: 700;
     font-size: 50px;
   }
-  
+  p.credit-font{
+    font-size: 8px;
+  }
 }
 
 /*About us page*/
