@@ -24,6 +24,9 @@ footer {
 p.thick{
   font-weight: 400;
 }
+p.small-font{
+  font-size: normal;
+}
 h1{
   font-weight: 600;
 }
@@ -340,11 +343,8 @@ html {
   .video {
     width: 100%;
   }
-}
-@media screen and (max-width: 600px) {
-  .column-resources{
-    width: 100%;
-    display: block;
+  h1{
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -352,10 +352,20 @@ html {
     width: 90%;
   }
 }
+@media screen and (max-width: 600px) {
+  .column-resources{
+    width: 100%;
+    display: block;
+  }
+}
 @media screen and (max-width: 500px) {
   .container {
-    width: 95%;
+    width: 93%;
   }
+  p.small-font{
+    font-size: smaller;
+  }
+  
 }
 
 /*About us page*/
