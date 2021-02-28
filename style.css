@@ -130,7 +130,10 @@ a:active{
 }
 h4{
     text-decoration: underline;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
+
 iframe{
     margin:20px 0;
 }
@@ -256,7 +259,7 @@ html {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
-  margin-bottom: 10px
+  margin-bottom: 30px
 }
 .video-responsive iframe{
   position: absolute;
@@ -507,3 +510,4 @@ a:hover {
 .ct-u-paddingBottom100 {
 margin-top: 40px;
 }
+
