@@ -6,7 +6,7 @@
         <meta name="keywords" content="coding club, Central Bucks High School South, CB South, CB South Coding Club, cb south coding club">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
+
         <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -14,34 +14,54 @@
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
+        <!--Bootstrap-->
+        <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="about.css">
+
+        <!-- Custom styles for this template -->
+        <link href="navbar.css" rel="stylesheet">
+
+
     </head>
 
-    <body>
-        <!--
-        <header id="main-header">
-            <div class="container">
-                <a href="index.html"><img src="south logo.png" alt="southlogo"></a>
-                <a href="index.html"> <h1> CB South Coding Club</h1> </a>
+        <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
+            <div class="container-sm">
+            <a class="navbar-brand" href="index.html">
+                <img src="south logo.png" alt="" width="30" height="24" class="d-inline-block align-top">
+                CB South Coding Club
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07XL">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="aboutus.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="constitution.html">Coding Club Constitution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="meetings.html">Meetings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="python.html">Python Tutorials</a>
+                </li>
+                
+                </ul>
+
             </div>
-        </header>
-        -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <div class="topnav" id="myTopnav">
-            <div class="container">
-                <a href="index.html" >Home</a>
-                <a href="aboutus.html"class="active">About</a>
-                <a href="constitution.html">Coding Club Constitution</a>
-                <a href="meetings.html">Meetings</a>
-                <a href="python.html">Python Tutorials</a>
-                <script src="navbar.js"></script>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
             </div>
-        </div>
+        </nav>
 
-
-
+        <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
 
 
         <section class=" company-sections ct-u-paddingBoth100 paddingBothHalf noTopMobilePadding" id="section">
@@ -82,7 +102,7 @@
                     <div class="column">
                         <div class="card">
                         
-                            <div class="container">
+                            <div class="people-container">
                                 <img  src="kevinhe.jpg" alt="Kevin He" class="people">
                                 <h2>Kevin He</h2>
                                 <p class="title">President</p>
@@ -94,6 +114,7 @@
                                 <p>He.K068@student.cbsd.org</p>
                                 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=j0gLqp78hUGl4zhCIN8jyuOyai6R3tdHnx05uQ3u3nVUMlpRQjJVVk1OQjZLWVA3QllCOTRTNFhKOS4u" target="_blank">
                                     <p><button class="button">Contact</button></p></a>
+                            
                             </div>
                         </div>
                     </div>
@@ -102,7 +123,7 @@
                     <div class="column-officer">
                         <div class="card">
                         
-                            <div class="container">
+                            <div class="people-container">
                                 <img src="Jerry.png" alt="Jerry" class="people">
                                 <h2>Jerry Qin</h2>
                                 <p class="title">Vice President</p>
@@ -119,7 +140,7 @@
                     <div class="column-officer">
                         <div class="card">
                         
-                            <div class="container">
+                            <div class="people-container">
                                 <img src="Rehmet.jpg" alt="Michael" class="people">
                                 <h2>Michael Rehmet</h2>
                                 <p class="title">Vice President</p>
@@ -137,7 +158,7 @@
                 <div class="row-officer">
                     <div class="column-officer">
                         <div class="card">
-                            <div class="container">
+                            <div class="people-container">
                                 <img  src="williamhuang1.jpg" alt="William Huang" class="people">
                                 <h2>William Huang</h2>
                                 <p class="title">Officer</p>
