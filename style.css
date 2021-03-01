@@ -402,6 +402,9 @@ h3.no-margin{
   p.credit-font{
     font-size: 8px;
   }
+  .video {
+    padding: 10px;
+  }
 }
 
 /*About us page*/
