@@ -27,9 +27,6 @@ p.thick{
 p.small-font{
   font-size: normal;
 }
-p.credit-font{
-  font-size: normal;
-}
 h1{
   font-weight: 600;
 }
@@ -85,7 +82,7 @@ h4{
 
 /*navigation bar */
 .topnav {
-  background-color: #333;
+  background-color: #363a40;
   overflow: hidden;
 
 }
@@ -151,7 +148,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image:  url("background.jpeg");
+  background-image: url("background.jpeg");
 
   /* Set a specific height */
   height: 50%;
@@ -165,11 +162,26 @@ body, html {
 
 /* Place text in the middle of the image */
 .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1.title {
+  color: white;
+  font-size: 75px;
+  font-weight: 100;
+}
+.credit-hero-text {
   text-align: right;
   position: absolute;
   top: 97%;
   right: -5%;
   transform: translate(-50%, -50%);
+}
+p.credit-font{
+  font-size: normal;
   color: white;
 }
 
