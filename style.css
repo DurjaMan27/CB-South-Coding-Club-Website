@@ -333,6 +333,8 @@ h3.no-margin{
 }
 .people-container{
   width:95%;
+  padding-right: 0;
+  padding-left: 0;
 }
 p.small-font{
   font-size: 12px;
