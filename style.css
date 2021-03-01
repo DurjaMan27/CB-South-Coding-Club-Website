@@ -190,15 +190,6 @@ a:active{
     color:green
 }
 
-.box-1{
-    background-color:#a8a8a8;
-
-    border: 5px blue solid;
-    border-width:3px;
-    padding:20px;
-    margin:20px 0;
-}
-
 
 iframe{
     margin:20px 0;
@@ -299,7 +290,9 @@ html {
 .title {
   color: grey;
 }
-
+button{
+  font-family: inherit;
+}
 .button {
   border: none;
   outline: 0;
@@ -329,9 +322,17 @@ html {
     width: 90%;
   }
 }
+h3.no-margin{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
 .video {
   margin-bottom: 40px;
   width: 60%;
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  padding:20px;
+
 }
 .video-responsive{
   position: relative;
