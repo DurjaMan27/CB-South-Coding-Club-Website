@@ -326,6 +326,10 @@ h3.no-margin{
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
+p.no-margin{
+  margin-block-start: 0.4em;
+  margin-block-end: 0em;
+}
 .video {
   margin-bottom: 40px;
   width: 60%;
