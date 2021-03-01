@@ -172,6 +172,7 @@ h1.title {
   color: white;
   font-size: 75px;
   font-weight: 100;
+  line-height: 60px;
 }
 .credit-hero-text {
   text-align: right;
@@ -182,14 +183,38 @@ h1.title {
 }
 p.credit-font{
   font-size: normal;
-  color: white;
+  color: #fafafa;
 }
 
+.news{
+  margin-bottom: 12%;
+}
 
-
-
-
-
+@media screen and (max-width: 1423px) {
+  h1.title{
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1329px) {
+  h1.title{
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 1235px) {
+  h1.title{
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 645px) {
+  h1.title{
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1.title{
+    font-size: 45px;
+  }
+}
 
 a{
     text-decoration: none;
