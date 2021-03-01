@@ -328,7 +328,7 @@ h3.no-margin{
   display: block;
 }
 .container {
-  width: 97%;
+  width: 95%;
   padding-right: var(--bs-gutter-x,.25rem);
   padding-left: var(--bs-gutter-x,.25rem);
 }
