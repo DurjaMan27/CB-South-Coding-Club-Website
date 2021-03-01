@@ -327,11 +327,8 @@ h3.no-margin{
   width: 100%;
   display: block;
 }
-}
-
-@media screen and (max-width: 500px) {
 .container {
-  width: 93%;
+  width: 95%;
 }
 p.small-font{
   font-size: 12px;
@@ -350,4 +347,5 @@ p.credit-font{
   padding: 10px;
 }
 }
+
 
