@@ -328,9 +328,8 @@ h3.no-margin{
   display: block;
 }
 .container {
-  width: 93%;
-  padding-right: var(--bs-gutter-x,.4rem);
-  padding-left: var(--bs-gutter-x,.4rem);
+  width: 97%;
+
 }
 .people-container{
   width:95%;
