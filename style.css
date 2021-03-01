@@ -8,7 +8,7 @@ body{
     line-height: 1.5em;
 }
 .container{
-    width:70%;
+    width:65%;
     margin:auto;
     overflow:hidden;
 }
@@ -277,11 +277,23 @@ html {
   margin-top: 5%;
 }
 
-
+.row{
+  display: flex;
+  justify-content: space-between;
+}
 .container::after, .row::after {
   content: "";
   clear: both;
-  display: table;
+}
+
+.row-officer::after{
+  content: "";
+  clear: both;
+  display:table;
+}
+.box {
+  background-color: #f3f3f3;
+  box-sizing: border-box;
 }
 
 .title {
@@ -339,6 +351,7 @@ html {
     width: 80%;
   }
 }
+
 @media screen and (max-width: 1100px) {
   .people {
     width: 70%;
@@ -351,6 +364,9 @@ html {
   }
   p.credit-font{
     font-size: 12px;
+  }
+  .row{
+    display:table;
   }
 }
 @media screen and (max-width: 700px) {
