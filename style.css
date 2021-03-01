@@ -344,6 +344,8 @@ button{
     width: 90%;
   }
 }
+
+
 h3.no-margin{
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -400,14 +402,18 @@ p.no-margin{
   .container {
     width: 90%;
   }
-
+  h3.no-margin{
+    font-size: 20px;
+  }
 }
+
 @media screen and (max-width: 600px) {
   .column-resources{
     width: 100%;
     display: block;
   }
 }
+
 @media screen and (max-width: 500px) {
   .container {
     width: 93%;
