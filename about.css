@@ -213,4 +213,9 @@ margin-top: 40px;
         font-size: 16px;
         font-weight: 400;
     }
+    .ct-u-paddingBoth100 {
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
