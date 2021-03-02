@@ -179,7 +179,7 @@ width: 300px;
 margin-bottom: 15px;
 margin-top: 15px;
 padding: 0 8px;
-float: left;
+float: normal;
 }
 
 .card-resources {
