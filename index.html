@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <title>CB South Coding Club</title>
         <meta name="description" content="The official website of the CB South Coding Club">
         <meta name="keywords" content="coding club, Central Bucks High School South, CB South, CB South Coding Club, cb south coding club, cbscoding, CB South coding, cbs coding club">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -15,53 +15,34 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         
-        <!--Bootstrap-->
-        <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css">
-  
-        <!-- Custom styles for this template -->
-        <link href="navbar.css" rel="stylesheet">
-    
-    
+
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
-            <div class="container-sm">
-              <a class="navbar-brand" href="index.html">
-                <img src="south logo.png" alt="" width="30" height="24" class="d-inline-block align-top">
-                CB South Coding Club
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-        
-              <div class="collapse navbar-collapse" id="navbarsExample07XL">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="constitution.html">Coding Club Constitution</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="meetings.html">Meetings</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="python.html">Python Tutorials</a>
-                  </li>
-                  
-                </ul>
-        
-              </div>
+        <!--
+        <header id="main-header">
+            <div class="container">
+                <a href="index.html"><img src="south logo.png" alt="southlogo"></a>
+                <a href="index.html"> <h1> CB South Coding Club</h1> </a>
             </div>
-        </nav>
+        </header>
+        --> 
 
-        <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav" id="myTopnav">
+            <div class="container">
+                <a href="index.html" class="active">Home</a>
+                <a href="aboutus.html">About</a>
+                <a href="constitution.html">Coding Club Constitution</a>
+                <a href="meetings.html">Meetings</a>
+                <a href="python.html">Python Tutorials</a>
+                <script src="navbar.js"></script>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                
+            </div>
+        </div>
 
         <div class="hero-image">
             <div class="hero-text">
@@ -84,44 +65,69 @@
                 <div class="news">
                     <h3>Club News</h3>
                     <p>3/1/2021</p>
-                    <p>Contest #2 for ACSL closes 11:59pm on Sunday March 7. Topics are <a class="link" href="http://www.categories.acsl.org/wiki/index.php?title=Prefix/Infix/Postfix_Notation" target="_blank">Prefix/Infix/Postfix Notation</a>, 
-                        <a class="link" href="http://www.categories.acsl.org/wiki/index.php?title=Bit-String_Flicking" target="_blank">Bit-String Flicking</a>, 
-                        and the <a class="link" href="http://www.categories.acsl.org/wiki/index.php?title=LISP" target="_blank"> Lisp programming language</a>. Good luck everyone!</p>
+                    <p>Contest #2 for ACSL closes 11:59pm on Sunday March 7. Topics are <a href="http://www.categories.acsl.org/wiki/index.php?title=Prefix/Infix/Postfix_Notation" target="_blank">Prefix/Infix/Postfix Notation</a>, 
+                        <a href="http://www.categories.acsl.org/wiki/index.php?title=Bit-String_Flicking" target="_blank">Bit-String Flicking</a>, 
+                        and the <a href="http://www.categories.acsl.org/wiki/index.php?title=LISP" target="_blank"> Lisp programming language</a>. Good luck everyone!</p>
                     <p>Contest #3 is open now. Check your school email for the test links.</p>
                 </div>
 
+                <!--<h3>Code Projects</h3>
+                    <ul>
+                            <li><a href="https://github.com/kevinhe5/CB-South-Coding-Club/blob/master/tictac3x3.py" target="_blank"> Simple Tic Tac Toe</a></li>
+                            <li><a href="https://github.com/kevinhe5/CB-South-Coding-Club/blob/master/card_deck_classes.py" target="_blank"> Card and Deck Classes</a></li>
+                    </ul>
+                -->
                 
-            <h3>Some Helpful Resources</h3>
-
+                <h3>Some Helpful Resources</h3>
+                
+                <!--
+                <a href="https://github.com/kevinhe5/CB-South-Coding-Club" target="_blank">
+                    <h4>Github code repository</h4>
+                </a>
+                <a href="https://discord.gg/WXjhUS4" target="_blank">
+                    <h4>Join the Coding Club discord server!</h4>
+                </a>
+                <a href="https://www.remind.com/join/cbscoding" target="_blank">
+                    <h4>Remind sign-up</h4>
+                </a>
+                -->
             <div class="box">    
-                <div class="row-resources">
+                <div class="row">
                     <div class="column-resources">
                         <a href="https://github.com/kevinhe5/CB-South-Coding-Club" target="_blank">
                             
-                            <div class="card-resources">
+                            <div class="card">
                             <img src="GitHub-logo.jpg" alt="GitHub-logo" width=80%>
+                                <div class="container">
+                                </div>
                             </div>
                         </a>
                     </div>
                     <div class="column-resources">
                         <a href="https://discord.gg/WXjhUS4" target="_blank">
                             
-                            <div class="card-resources">
+                            <div class="card">
                             <img src="discord logo1.png" alt="discord logo" width=80%>
+                                <div class="container">
+                                </div>
                             </div>
                         </a>
                     </div>
                     <div class="column-resources">
                         <a href="https://www.remind.com/join/cbscoding" target="_blank">
-                            <div class="card-resources">
+                            <div class="card">
                             <img src="remindlogo1.png" alt="discord logo" width=80%>
+                                <div class="container">
+                                </div>
                             </div>   
                         </a> 
                     </div>
                     <div class="column-resources">
                         <a href="https://www.youtube.com/channel/UCuQqz74RMGjJu95pE1Ba0cg" target="_blank">
-                            <div class="card-resources">
+                            <div class="card">
                             <img src="Youtube logo1.png" alt="youtube logo" width=80%>
+                                <div class="container">
+                                </div>
                             </div>   
                         </a> 
                     </div>
