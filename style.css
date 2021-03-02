@@ -12,6 +12,7 @@ body{
   margin:auto;
   overflow:hidden;
 }
+
 footer {
 color:black;
 position: none;
@@ -336,6 +337,7 @@ p.credit-font{
 .container {
   width: 90%;
 }
+
 h3.no-margin{
   font-size: 20px;
 }
@@ -347,7 +349,11 @@ h3.no-margin{
   display: block;
 }
 .container {
-  width: 97%;
+  width: 99%;
+
+}
+.container {
+  width: 100%;
 
 }
 .people-container{
